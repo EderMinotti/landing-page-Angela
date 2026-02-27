@@ -11,8 +11,8 @@ export default function Carrossel() {
     <div className="w-full max-w-4xl mx-auto py-8">
       <Swiper
         style={{
-          "--swiper-navigation-color": "#4ade80",
-          "--swiper-pagination-color": "#4ade80",
+          "--swiper-navigation-color": "#e1f3eb",
+          "--swiper-pagination-color": "#e1f3eb",
         }}
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={20}

@@ -5,7 +5,7 @@ export const AboutMe = () => {
         className="leading-[1.6] flex flex-col gap-2 text-justify
                   m-4"
       >
-        <h2 className="text-(--cor-verde) text-xl">Apresentação:</h2>
+        <h2 className="text-(--cor-verde) text-2xl font-bold">Apresentação:</h2>
         <p>
           "Olá! Sou Angela Prado, podóloga especialista na saúde e no bem-estar
           dos seus pés.
