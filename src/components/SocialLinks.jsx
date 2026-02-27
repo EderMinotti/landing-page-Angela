@@ -4,10 +4,10 @@ import { RiInstagramFill } from "react-icons/ri";
 export const SocialLinks = () => {
   return (
     <>
-      <div className="text-6xl fixed bottom-3 right-3 text-[#32D851]  ">
+      <div className="text-6xl fixed bottom-3 right-3 text-[#32D851] z-3">
         <IoLogoWhatsapp />
       </div>
-      <div className="text-6xl fixed bottom-20 right-3 text-black  ">
+      <div className="text-6xl fixed bottom-20 right-3 text-black  z-3">
         <RiInstagramFill />
       </div>
     </>
