@@ -5,7 +5,7 @@ import { Footer } from "../components/Footer";
 
 export const LayoutBase = () => {
   return (
-    <section className="min-h-full flex flex-col">
+    <section className="min-h-screen flex flex-col">
       <NavBar />
       <Outlet />
       <SocialLinks />

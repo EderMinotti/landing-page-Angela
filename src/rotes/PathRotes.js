@@ -1,3 +1,5 @@
-export const Path = {
-    home : "/"
+export const Path= {
+    home : "/",
+    about: "/about",
+    contact: "/contact"
 }

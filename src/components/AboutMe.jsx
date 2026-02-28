@@ -1,11 +1,16 @@
+import { PiPresentationLight } from "react-icons/pi";
+
 export const AboutMe = () => {
   return (
     <section>
+      <picture className="min-w-full flex justify-center">
+        <img src="./teste.png" alt="" />
+      </picture>
       <div
         className="leading-[1.6] flex flex-col gap-2 text-justify
                   m-4"
       >
-        <h2 className="text-(--cor-verde) text-2xl font-bold">Apresentação:</h2>
+        <h2 className=" flex items-center gap-2 text-(--cor-verde) text-2xl font-bold"><PiPresentationLight/>Apresentação:</h2>
         <p>
           "Olá! Sou Angela Prado, podóloga especialista na saúde e no bem-estar
           dos seus pés.
@@ -20,9 +25,7 @@ export const AboutMe = () => {
           total biossegurança. Vamos cuidar da sua base?"
         </p>
       </div>
-      <picture className="min-w-full flex justify-center">
-        <img src="./teste.png" alt="" />
-      </picture>
+
     </section>
   );
 };
